@@ -1,29 +1,8 @@
-# kanatrainer
+# Kanatrainer
+Small little website to help the learning of Hiragana and Katakana. It is currently hosted on [kana.mrag.nl](https://kana.mrag.nl/).
 
-This template should help get you started developing with Vue 3 in Vite.
+## Development
+To work on the code, run `npx vite` in the source directory (after installing dependencies using `npm install`).
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Building
+To build the code, run `npx vite build`.
