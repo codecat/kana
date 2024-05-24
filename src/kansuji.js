@@ -6,7 +6,7 @@ const ROMAJI_DIGITS = ['zero', 'ichi', 'ni', 'san', 'yon', 'go', 'roku', 'nana',
 
 const KANJI_UNITS = ['十', '百', '千', '万', '億', '兆', '京', '垓', '秭', '穣', '溝', '澗', '正', '載'];
 const HIRAGANA_UNITS = ['じゅう', 'ひゃく', 'せん', 'まん', 'おく', 'じょう', 'きょう', 'かい', 'し', 'にょう', 'く', 'けん', 'しょう', 'さい'];
-const ROMAJI_UNITS = ['shuu', 'hyaku', 'sen', 'man', 'oku', 'jou', 'kyou', 'kai', 'shi', 'nyou', 'ku', 'ken', 'shou', 'sai'];
+const ROMAJI_UNITS = ['juu', 'hyaku', 'sen', 'man', 'oku', 'jou', 'kyou', 'kai', 'shi', 'nyou', 'ku', 'ken', 'shou', 'sai'];
 
 const DOT = '・';
 const PLUS = '＋';
