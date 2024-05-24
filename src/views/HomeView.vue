@@ -103,6 +103,15 @@ export default {
 				},
 
 				//////////////////////////////////////////////
+				// Kanji
+				{
+					type: 'is-warning',
+					title: 'Kanji numbers 1',
+					subtitle: 'Numbers in Kanji',
+					path: '/game/kanji/numbers',
+				},
+
+				//////////////////////////////////////////////
 				// Mistakes
 				{
 					type: 'is-danger',

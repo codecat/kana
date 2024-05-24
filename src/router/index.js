@@ -14,6 +14,8 @@ import katakanaDakuten from '@/questions/katakana-dakuten';
 import katakanaYoon from '@/questions/katakana-yoon';
 import katakanaMisc from '@/questions/katakana-misc';
 
+import kanjiNumbers from '@/questions/kanji-numbers';
+
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
 	routes: [
@@ -99,6 +101,14 @@ const router = createRouter({
 			path: '/game/katakana/yoon',
 			component: GameCharacterSetView,
 			props: { questions: [...katakanaYoon] },
+		},
+
+		//////////////////////////////////////////////
+		// Kanji
+		{
+			path: '/game/kanji/numbers',
+			component: GameCharacterSetView,
+			props: { questions: [...kanjiNumbers] },
 		},
 
 		//////////////////////////////////////////////
