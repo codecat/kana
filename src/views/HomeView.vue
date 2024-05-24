@@ -103,12 +103,40 @@ export default {
 				},
 
 				//////////////////////////////////////////////
-				// Kanji
+				// Numbers
 				{
 					type: 'is-warning',
-					title: 'Kanji numbers 1',
-					subtitle: 'Numbers in Kanji',
-					path: '/game/kanji/numbers',
+					title: 'Numbers: basic',
+					subtitle: '0 through 10 in kanji',
+					path: '/game/numbers/1',
+				},
+
+				{
+					type: 'is-warning',
+					title: 'Numbers: hundreds',
+					subtitle: '10 through 100 in kanji',
+					path: '/game/numbers/2',
+				},
+
+				{
+					type: 'is-warning',
+					title: 'Numbers: thousands',
+					subtitle: '100 through 1,000 in kanji',
+					path: '/game/numbers/3',
+				},
+
+				{
+					type: 'is-warning',
+					title: 'Numbers: high thousands',
+					subtitle: '1,000 through 10,000 in kanji',
+					path: '/game/numbers/4',
+				},
+
+				{
+					type: 'is-warning',
+					title: 'Numbers: sky high',
+					subtitle: '100,000 through 1,000,000 in kanji',
+					path: '/game/numbers/5',
 				},
 
 				//////////////////////////////////////////////

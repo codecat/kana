@@ -15,6 +15,7 @@ import katakanaYoon from '@/questions/katakana-yoon';
 import katakanaMisc from '@/questions/katakana-misc';
 
 import kanjiNumbers from '@/questions/kanji-numbers';
+import numbers from '@/questions/numbers';
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -104,11 +105,35 @@ const router = createRouter({
 		},
 
 		//////////////////////////////////////////////
-		// Kanji
+		// Numbers
 		{
-			path: '/game/kanji/numbers',
+			path: '/game/numbers/1',
 			component: GameCharacterSetView,
-			props: { questions: [...kanjiNumbers] },
+			props() { return { questions: [...numbers(0, 10)] }; },
+		},
+
+		{
+			path: '/game/numbers/2',
+			component: GameCharacterSetView,
+			props() { return { questions: [...numbers(10, 100)] }; },
+		},
+
+		{
+			path: '/game/numbers/3',
+			component: GameCharacterSetView,
+			props() { return { questions: [...numbers(100, 1_000)] }; },
+		},
+
+		{
+			path: '/game/numbers/4',
+			component: GameCharacterSetView,
+			props() { return { questions: [...numbers(1_000, 10_000)] }; },
+		},
+
+		{
+			path: '/game/numbers/5',
+			component: GameCharacterSetView,
+			props() { return { questions: [...numbers(100_000, 1_000_000)] }; },
 		},
 
 		//////////////////////////////////////////////
